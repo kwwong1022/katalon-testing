@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,,,,2022-11-09 10:49:30,2022-11-09 10:49:32,2.415s,PASSED
+,,,,,,,
+Test Cases/ListUsersTest,,,,2022-11-09 10:49:30,2022-11-09 10:49:32,2.141s,PASSED
+"sendRequest(findTestObject(""UserRestService/ListUsers""))",,,,2022-11-09 10:49:30,2022-11-09 10:49:31,1.289s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestService/ListUsers""))",,Check request sent successfully,,2022-11-09 10:49:31,2022-11-09 10:49:32,0.492s,PASSED
+"verifyElementPropertyValue(response, ""data[0].id"", 7)",,Check id,,2022-11-09 10:49:32,2022-11-09 10:49:32,0.019s,PASSED
+"verifyElementsCount(response, ""data"", 6)",,check returned data count,,2022-11-09 10:49:32,2022-11-09 10:49:32,0.025s,PASSED

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="2.415" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="1" failures="0" errors="0" time="2.415" skipped="0" timestamp="2022-11-09 10:49:30" hostname="kwwong - localhost" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/kwwong/Documents/Project/Study/Katalon/katalon-testing/Reports/20221109_104920/Test Suite 1/20221109_104920"/>
+         <property name="logFiles" value="/Users/kwwong/Documents/Project/Study/Katalon/katalon-testing/Reports/20221109_104920/Test Suite 1/20221109_104920/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kwwong - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+      </properties>
+      <testcase name="Test Cases/ListUsersTest" time="2.141" classname="Test Cases/ListUsersTest" status="PASSED">
+         <system-out><![CDATA[2022-11-09 10:49:30 - [TEST_CASE][PASSED] - Test Cases/ListUsersTest: Test Cases/ListUsersTest
+
+2022-11-09 10:49:30 - [TEST_STEP][PASSED] - sendRequest(findTestObject("UserRestService/ListUsers")): Send request successfully
+
+2022-11-09 10:49:31 - [MESSAGE][INFO] - HAR: /Users/kwwong/Documents/Project/Study/Katalon/katalon-testing/Reports/20221109_104920/Test Suite 1/20221109_104920/requests/main/0.har
+
+2022-11-09 10:49:31 - [MESSAGE][PASSED] - Send request successfully
+
+2022-11-09 10:49:31 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("UserRestService/ListUsers")): Send request and verify the response successfully
+
+2022-11-09 10:49:32 - [MESSAGE][INFO] - HAR: /Users/kwwong/Documents/Project/Study/Katalon/katalon-testing/Reports/20221109_104920/Test Suite 1/20221109_104920/requests/main/1.har
+
+2022-11-09 10:49:32 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-11-09 10:49:32 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-11-09 10:49:32 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-11-09 10:49:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-11-09 10:49:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-11-09 10:49:32 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-11-09 10:49:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].id", 7): Verify element property value successfully
+
+2022-11-09 10:49:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-11-09 10:49:32 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-11-09 10:49:32 - [MESSAGE][PASSED] - All validation steps have been passed
+
+2022-11-09 10:49:32 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-11-09 10:49:32 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].id", 7): Verify element property value successfully
+
+2022-11-09 10:49:32 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-11-09 10:49:32 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data", 6): Verify element count successfully
+
+2022-11-09 10:49:32 - [MESSAGE][PASSED] - Verify element count successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-09 10:49:30 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/ListUsersTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
